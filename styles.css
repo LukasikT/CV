@@ -1,0 +1,126 @@
+body {
+    max-width: 1200px;
+    margin: auto;
+}
+main {
+display: grid;
+background-color: ghostwhite;
+}
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #708090;
+    color: #f8f8ff;
+}
+.profile_photo {
+    box-shadow: 1px 1px 9px 1px #434242;
+    margin-left: 5px;
+    width: 200px;
+    border-radius: 100px;
+}
+
+.general {
+    width: 210px;
+    height: 980px;
+    grid-column: 1;
+    grid-row: 1 / 5;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    background-color: gainsboro;
+}
+.center {
+    display: flex;
+    align-items: center;
+}
+address img {
+    margin-right: 10px;
+}
+.description {
+    grid-column: 2 /3;
+    grid-row: 1;
+    padding: 10px 80px;
+    
+}
+.experience {
+    grid-column: 2 /3;
+    grid-row: 2;
+    padding: 10px 20px 10px 80px;
+}
+.education {
+    grid-column: 2 / 3;
+    grid-row: 3;
+    padding: 10px 20px 10px 80px;
+}
+.information {
+    grid-column: 2 / 3;
+    grid-row: 4;
+    padding: 10px;
+    padding: 10px 20px 10px 80px;   
+}
+.interests h3 {
+    margin-left: 70px;
+}
+.interests {
+    grid-column: 2 / 3;
+    grid-row: 5;
+    padding: 10px;
+    }
+.interests ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.interests li{
+    display: flex;
+    align-items: flex-start;
+    width: 33.3%;
+    
+}
+.interests div {
+    margin-left: 20px;
+}
+.container {
+    display: flex;
+}
+aside {
+    min-width: 9rem;
+}
+h4, p, address a {
+    margin: 8px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.experience .container, .education, .information {
+    border-bottom: 1px solid rgb(179, 177, 177);
+}
+main {
+    line-height: 1.5;
+}
+footer {
+    font-size: 10px;
+    color: grey;
+    margin: 10px 20px;
+}
+.button-download {
+display: flex;
+justify-content: flex-end;
+}
+button {
+    text-align: right;
+    background-color: rgb(192, 195, 211);
+    border: 0.5px solid gray;
+    box-shadow: 2px 1px 8px 0px #9b9b9b;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+button:hover {
+    color: white;
+    background-color: rgb(75, 75, 170);
+}
+button:active {
+    color: rgb(75, 75, 170);
+    background-color: rgb(192, 195, 211);
+    transition: background-color 0.0s;
+}

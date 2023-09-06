@@ -4,48 +4,50 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width"/>
         <title>CV</title>
-        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="styles.cSs">
     </head>
     <body>
         <header>
             <h1>Curricullum Vitae</h1>
         </header>
         <main>
-            <div class="box1">
+            <div class="general">
                 <h2>Tomasz Łukasik</h2>
-                <img src="F:\prog\projekty\CV\images\profile.jpg" alt="Zdjęcie aplikującego - mężczyzna w okularach - 34 lata">
+                <img class="profile_photo" src="F:\prog\projekty\CV\images\profile.jpg" alt="Zdjęcie aplikującego - mężczyzna w okularach - 34 lata">
                 <h3>Dane osobowe</h3>
-            <address>
-                <h4>Adres:</h4>
-                <p>ul. Piwna 43, 91-048</p>
-                <h4>Telefon</h4>
-                <a href="tel:+48 665-570-691">+48 665-570-691</a>
-                <h4>Adres e-mail</h4>
-                <a href="mailto:tomluk2@gmail.com">tomluk2@gmail.com</a>
-                <h4>Data urodzenia</h4>
-                <p>31 Sierpnia 1989r.</p>
-            </address>
-            <h3>Języki obce</h3>
-            <p>angielski - podstawowy</p>
-            <h3>Cechy osobowości</h3>
-            <ul>
-                <li>pracowitość</li>
-                <li>sumienność</li>
-                <li>dobra organizacja pracy</li>
-                <li>pełne zaangażowanie w powierzone zadanie</li>
-                <li>punktualność</li>
-            </ul>
+                <address>
+                    <h4>Adres zamieszkania</h4>
+                    <a class="center" href="https://goo.gl/maps/FQdc2JHHhUzKBfZm6"><img src="images/location.png" alt="ikona pozycja"/>ul. Piwna 43, 91-048</a>
+                    <h4>Telefon</h4>
+                    <a class="center" href="tel:+48 665-570-691"><img src="images/phone.png" alt="ikona telefon"/>+48 665-570-691</a>
+                    <h4>Adres e-mail</h4>
+                    <a class="center" href="mailto:tomluk2@gmail.com"><img src="images/mail.png" alt="ikona mail"/>tomluk2@gmail.com</a>
+                    <h4>Data urodzenia</h4>
+                    <p class="center"><img src="images/birthday.png" alt="ikona tort"/>31 Sierpnia 1989r.</p>
+                </address>
+                <h3>Języki obce</h3>
+                <p>angielski - podstawowy</p>
+                <h3>Cechy osobowości</h3>
+                <ul>
+                    <li>pracowitość</li>
+                    <li>sumienność</li>
+                    <li>dobra organizacja pracy</li>
+                    <li>pełne zaangażowanie w powierzone zadanie</li>
+                    <li>punktualność</li>
+                </ul>
+                <div class="button-download">
+                <button>Download CV</button>
+                </div>
             </div>
-            <article>
-                <p>Z wykształcenia jestem inżynierem geodezji i kartografii ale obecna sytuacja na rynku pracy 
+            <article class="description">
+                <p> Z wykształcenia jestem inżynierem geodezji i kartografii ale obecna sytuacja na rynku pracy 
                     sprawiła, że podjąłem decyzję o przebranżowieniu się do sektora IT co mam nadzieję, że 
                     pozwoli mi w końcu nie martwić się o przyszłość.<br>
                     Jestem osobą sumienną, która nie boi się nowych wyzwań i nauki. Praca w zawodzie nauczyła mnie między innymi dokładności a także odpowiedzialności za powierzone mi zadania.</p>
             </article>
-            <!--Expirience - add in CSS grid Line-based placement-->
-            <div class="expirience">
+            <div class="experience"><!--add in CSS grid Line-based placement-->
                 <h3>Doświadczenie</h3>
-                <div class="container1"><!--try to remove the container number-->
+                <div class="container"><!--add in CSS display = flex-->
                     <aside>
                         <h4>01.2023r. - obecnie</h4>
                     </aside>
@@ -62,7 +64,7 @@
                         </ul>
                     </article>
                 </div>
-                <div class="container2"><!--try to remove the container number-->
+                <div class="container"><!--add in CSS display = flex-->
                     <aside>
                         <h4>01.2021r. - 12.2022</h4>
                     </aside>
@@ -79,7 +81,7 @@
                         </ul>
                     </article>
                 </div>
-                <div class="container3"><!--try to remove the container number-->
+                <div class="container"><!--add in CSS display = flex-->
                     <aside>
                         <h4>03.2020r. - 12.2020</h4>
                     </aside>
@@ -95,7 +97,7 @@
                         </ul>
                     </article>
                 </div>
-                <div class="container4"><!--try to remove the container number-->
+                <div class="container"><!--add in CSS display = flex-->
                     <aside>
                         <h4>11.2017r. - 02.2020</h4>
                     </aside>
@@ -113,7 +115,7 @@
                         </ul>
                     </article>
                 </div>
-                <div class="container5"><!--try to remove the container number-->
+                <div class="container"><!--add in CSS display = flex-->
                     <aside>
                         <h4>05.2015r. - 09.2015</h4>
                     </aside>
@@ -126,7 +128,7 @@
                         </ul>
                     </article>
                 </div>
-                <div class="container6"><!--try to remove the container number-->
+                <div class="container"><!--add in CSS display = flex-->
                     <aside>
                         <h4>04.2010r. - 03.2014</h4>
                     </aside>
@@ -145,29 +147,29 @@
                     </article>
                 </div>
             </div>
-            <div class="Education">
+            <div class="education"><!--add in CSS grid Line-based placement-->
                 <h3>Wykształcenie</h3>
-                <div class="container">
+                <div class="container"><!--add in CSS display = flex-->
                     <aside>
                         <h4>10.2009r. - 06.2013r.</h4>
                     </aside>
                     <article>
-                        <h4>Studia inżynierskie na kierunku Geodezja
+                        <p>Studia inżynierskie na kierunku Geodezja
                             i Kartografia w Wyższej Szkole Przedsiębiorczości
-                            i Zarządzania w Łodzi</h4>
+                            i Zarządzania w Łodzi</p>
                     </article>
                 </div>
-                <div class="container">
+                <div class="container"><!--add in CSS display = flex-->
                     <aside>
                         <h4>09.2005r. - 06.2009r.</h4>
                     </aside>
                     <article>
-                        <h4>Nauka w Zespole Szkół Geodezyjno - Technicznych
-                            w Łodzi, Technikum nr13</h4>
+                        <p>Nauka w Zespole Szkół Geodezyjno - Technicznych
+                            w Łodzi, Technikum nr13</p>
                     </article>
                 </div>
             </div>
-            <div class="information">
+            <div class="information"><!--add in CSS grid Line-based placement-->
                 <h3>Dodatkowe informacje</h3>
                 <ol>
                     <li>Częściowo przerobiony przewodnik <a href="https://developer.mozilla.org/en-US/docs/Learn">Learn web development</a> ze strony MDN Web Docs</li>
@@ -176,21 +178,42 @@
                             <li>CSS</li>
                             <li>Częściowo JS</li>
                         </ul>
-                    <li>Znaajomość pakietu MS Office (Excel, Word, PowerPoint) w stopniu podstawowym</li>
+                    <li>Znajomość pakietu MS Office (Excel, Word, PowerPoint) w stopniu podstawowym</li>
                     <li>znajomość dodatkowych programów komputerowych tj.: EwMapa, WinKalk, C-Geo, AutoCAD, GeoInfo Delta.</li>
                     <li>Prawo jazdy kat. A (od 2014r.) i kat. B (od 2008r.) </li>
 
                 </ol>
             </div>
-            <div class="interests">
+            <div class="interests"><!--add in CSS grid Line-based placement-->
                 <h3>Zainteresowania</h3>
                 <ul>
-                    <li>zdrowy tryb życia.</li>
-                    <li>Motoryzacja.</li>
-                    <li>wykonywanie drobnych napraw mechanicznych i budowlano-remontowych.</li>
+                    <li><img src="images/fitness.png" alt="ikona serce"/>
+                    <div> 
+                        <h4>Zdrowy tryb życia</h4>
+                        <p>Lubię aktywnie spędać wolny czas. Zgadzam się z w 100% z powiedzeniem "W zdrowym ciele zdrowy duch" 😉.</p>
+                    </div>
+                    </li>
+                    <li><img src="images/music.png" alt="ikona nuty"/>
+                    <div>
+                        <h4>Muzyka</h4>
+                        <p>Nie wyobrażam sobie życia bez muzyki. Nie jestem fanem jednego gatunku muzyki. Słucham wszystkiego po trochu w zależności od nastroju 🙂</p>
+                    </div>
+                    </li>
+                    <li><img src="images/tools.png" alt="ikona narzędzi"/>
+                    <div>
+                        <h4>Majsterkowanie</h4>
+                        <p>Staram się samodzielnie wykonywać drobne naprawy mechaniczne lub budowlano-remontowe. Sprawia mi dużą satysfakcję, gdy rozwiązuję problemy</p>
+                    </div>
+                    </li>
                 </ul>
             </div>        
 
-        </main>    
+        </main> 
+        <footer>
+            <p>Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku 
+                o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 
+                2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych 
+                oraz uchylenia dyrektywy 95/46/WE (RODO).</p>
+        </footer>   
     </body>
 </html>
