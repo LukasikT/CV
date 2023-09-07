@@ -18,7 +18,6 @@ header {
     width: 200px;
     border-radius: 100px;
 }
-
 .general {
     width: 210px;
     height: 980px;
@@ -40,12 +39,18 @@ address img {
     grid-column: 2 /3;
     grid-row: 1;
     padding: 10px 80px;
-    
 }
 .experience {
     grid-column: 2 /3;
     grid-row: 2;
     padding: 10px 20px 10px 80px;
+}
+aside {
+    width: 80px;
+    padding: 0 15px;
+}
+.experience article {
+    padding: 0 20px;
 }
 .education {
     grid-column: 2 / 3;
@@ -75,7 +80,6 @@ address img {
     display: flex;
     align-items: flex-start;
     width: 33.3%;
-    
 }
 .interests div {
     margin-left: 20px;
@@ -83,15 +87,11 @@ address img {
 .container {
     display: flex;
 }
-aside {
-    min-width: 9rem;
-}
 h4, p, address a {
     margin: 8px 0;
     font-family: 'Times New Roman', Times, serif;
     font-style: normal;
 }
-
 .experience .container, .education, .information {
     border-bottom: 1px solid rgb(179, 177, 177);
 }
@@ -124,3 +124,58 @@ button:active {
     background-color: rgb(192, 195, 211);
     transition: background-color 0.0s;
 }
+/* start breake points for responsible site*/
+@media (max-width: 960px) {
+    main {
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+    .general {
+        flex-wrap: wrap;
+        position: static;
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 960px) {
+    .box1 {
+        display: flex;
+        justify-content: space-between ;
+    }
+}
+@media (max-width: 960px) {
+    .container{
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+.break-point {
+        padding: 15px;
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+    .interests ul {
+        padding: 15px;
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+    .interests li {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+}    
+@media (max-width: 960px) {
+    .interests {
+        padding: 15px;
+    }
+}    
+@media (max-width: 960px) {
+    .interests h3 {
+        margin-left: 0;
+    }
+}    
+/* end breake points for responsible site*/
