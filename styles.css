@@ -124,3 +124,58 @@ button:active {
     background-color: rgb(192, 195, 211);
     transition: background-color 0.0s;
 }
+/* start breake points for responsible site*/
+@media (max-width: 960px) {
+    main {
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+    .general {
+        flex-wrap: wrap;
+        position: static;
+        width: auto;
+        height: auto;
+    }
+}
+@media (max-width: 960px) {
+    .box1 {
+        display: flex;
+        justify-content: space-between ;
+    }
+}
+@media (max-width: 960px) {
+    .container{
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+.break-point {
+        padding: 15px;
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+    .interests ul {
+        padding: 15px;
+        display: block;
+    }
+}
+@media (max-width: 960px) {
+    .interests li {
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+}    
+@media (max-width: 960px) {
+    .interests {
+        padding: 15px;
+    }
+}    
+@media (max-width: 960px) {
+    .interests h3 {
+        margin-left: 0;
+    }
+}    
+/* end breake points for responsible site*/
