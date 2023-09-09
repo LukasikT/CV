@@ -190,4 +190,10 @@ button:active {
         margin: 0;
     }
 }    
+@media (max-width: 85px) {
+    .button-download {
+        display: flex;
+        justify-content: start;
+    }
+}    
 /* end breake points for responsible site*/
