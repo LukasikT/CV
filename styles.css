@@ -47,11 +47,11 @@ address img {
 }
 aside {
     width: 80px;
-    padding: 0 15px;
+    margin: 0 15px;
 }
-.experience article {
-    padding: 0 20px;
-}
+.experience article, .education article {
+    width: 700px;
+    }
 .education {
     grid-column: 2 / 3;
     grid-row: 3;
