@@ -21,7 +21,7 @@ header {
 }
 .general {
     width: 210px;
-    height: 980px;
+    height: 1000px;
     grid-column: 1;
     grid-row: 1 / 5;
     padding: 1rem;
@@ -104,26 +104,32 @@ footer {
     color: grey;
     margin: 10px 20px;
 }
-.button-download {
+.button-pdf {
 display: flex;
 justify-content: flex-end;
 }
-button {
-    text-align: right;
+.button {
+    color: rgb(75, 75, 170);
+    text-decoration: none;
+    text-align: center;
     background-color: rgb(192, 195, 211);
     border: 0.5px solid gray;
     box-shadow: 2px 1px 8px 0px #9b9b9b;
     border-radius: 10px;
     transition: background-color 0.3s;
+    width: 80px;
 }
-button:hover {
+.button:hover {
     color: white;
     background-color: rgb(75, 75, 170);
 }
-button:active {
+.button:active {
     color: rgb(75, 75, 170);
     background-color: rgb(192, 195, 211);
     transition: background-color 0.0s;
+}
+.information>ul>ul {
+    list-style: square;
 }
 /* start breake points for responsible site*/
 @media (max-width: 600px) {
@@ -190,8 +196,13 @@ button:active {
         margin: 0;
     }
 }    
-@media (max-width: 85px) {
-    .button-download {
+@media (max-width: 389px) {
+    .general {
+        height: 935px;
+    }
+}    
+@media (max-width: 80px) {
+    .button-pdf {
         display: flex;
         justify-content: start;
     }
