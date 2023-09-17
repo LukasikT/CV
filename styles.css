@@ -198,7 +198,7 @@ justify-content: flex-end;
 }    
 @media (max-width: 389px) {
     .general {
-        height: 935px;
+        height: 1935px;
     }
 }    
 @media (max-width: 80px) {
