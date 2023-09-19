@@ -147,7 +147,7 @@ justify-content: flex-end;
         flex-wrap: wrap;
         position: static;
         width: auto;
-        height: 1910px;
+        height: 935px;
         padding: 20px 15px 0 30px;
     }
 }
@@ -192,13 +192,13 @@ justify-content: flex-end;
 }    
 @media (max-width: 600px) {
     aside {
-        width: 140px;
+        width: 160px;
         margin: 0;
     }
 }    
 @media (max-width: 389px) {
     .general {
-        height: 1935px;
+        height: 935px;
     }
 }    
 @media (max-width: 80px) {
