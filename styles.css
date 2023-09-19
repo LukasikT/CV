@@ -12,16 +12,23 @@ header {
     justify-content: center;
     background-color: #708090;
     color: #f8f8ff;
+    height: 45px;
+}
+h1 {
+    margin: auto;
+}
+.box1>h2 {
+    margin-top: 0;
 }
 .profile_photo {
     box-shadow: 1px 1px 9px 1px #434242;
     margin-left: 5px;
-    width: 200px;
+    width: 150px;
     border-radius: 100px;
 }
 .general {
     width: 210px;
-    height: 1035px;
+    height: 1000px;
     grid-column: 1;
     grid-row: 1 / 5;
     padding: 1rem;
@@ -147,7 +154,7 @@ justify-content: flex-end;
         flex-wrap: wrap;
         position: static;
         width: auto;
-        height: 935px;
+        height: 900px;
         padding: 20px 15px 0 30px;
     }
 }
@@ -198,7 +205,7 @@ justify-content: flex-end;
 }    
 @media (max-width: 389px) {
     .general {
-        height: 935px;
+        height: 900px;
     }
 }    
 @media (max-width: 80px) {
