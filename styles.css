@@ -28,7 +28,7 @@ h1 {
 }
 .general {
     width: 210px;
-    height: 1000px;
+    height: 935px;
     grid-column: 1;
     grid-row: 1 / 5;
     padding: 1rem;
@@ -205,7 +205,7 @@ justify-content: flex-end;
 }    
 @media (max-width: 389px) {
     .general {
-        height: 900px;
+        height: 925px;
     }
 }    
 @media (max-width: 80px) {
