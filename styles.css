@@ -1,5 +1,5 @@
 body {
-    max-width: 1500px;
+    max-width: 1200px;
     min-width: 720px;
     margin: auto;
 }
@@ -147,7 +147,7 @@ justify-content: flex-end;
         flex-wrap: wrap;
         position: static;
         width: auto;
-        height: 910px;
+        height: 1910px;
         padding: 20px 15px 0 30px;
     }
 }
@@ -198,7 +198,7 @@ justify-content: flex-end;
 }    
 @media (max-width: 389px) {
     .general {
-        height: 935px;
+        height: 1935px;
     }
 }    
 @media (max-width: 80px) {
