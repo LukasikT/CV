@@ -68,7 +68,11 @@ aside {
 .information {
     grid-column: 2 / 3;
     grid-row: 4;
-    padding: 10px;
+    padding: 10px 20px 10px 80px;   
+}
+.personality {
+    grid-column: 2 / 3;
+    grid-row: 5;
     padding: 10px 20px 10px 80px;   
 }
 .interests h3 {
@@ -76,7 +80,7 @@ aside {
 }
 .interests {
     grid-column: 2 / 3;
-    grid-row: 5;
+    grid-row: 6;
     padding: 10px;
     }
 .interests ul {
